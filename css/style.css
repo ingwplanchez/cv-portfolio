@@ -27,3 +27,39 @@
   height: auto;
   border-radius: 50%;
 }
+
+.card-img-container {
+  height: 240px;
+  overflow: hidden;
+  background-color: #e9ecef;
+}
+
+.card-img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-container img {
+  transform: scale(1.03);
+}
+
+.badge-tech {
+  font-weight: 500;
+  font-size: 0.75rem;
+  background-color: #f1f3f5;
+  color: #343a40;
+  border: 1px solid #dee2e6;
+}
+
+.featured-card {
+  border: 1px solid #cbd5e1 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.filter-btn {
+  border-radius: 20px;
+  padding: 6px 18px;
+  font-size: 0.9rem;
+}

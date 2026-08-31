@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Mechatronics & AI Native Engineer</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    /* Estilos globales y utilidades */
+    body {
+      background-color: #f8f9fa;
+      color: #212529;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .card-img-container {
+      height: 190px;
+      overflow: hidden;
+      background-color: #e9ecef;
+    }
+
+    .card-img-container img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover .card-img-container img {
+      transform: scale(1.03);
+    }
+
+    .badge-tech {
+      font-weight: 500;
+      font-size: 0.75rem;
+      background-color: #f1f3f5;
+      color: #343a40;
+      border: 1px solid #dee2e6;
+    }
+
+    .featured-card {
+      border: 1px solid #cbd5e1 !important;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .filter-btn {
+      border-radius: 20px;
+      padding: 6px 18px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container py-5">
+
+    <!-- HEADER PORTAFOLIO -->
+    <header class="text-center mb-5 pb-3 border-bottom">
+      <h1 class="fw-bold display-5">Wilmer Planchez</h1>
+      <p class="lead text-muted">Consultor en Mecatrónica & AI-Native Systems Engineer</p>
+      <div class="d-flex justify-content-center gap-2">
+        <span class="badge bg-dark">LangGraph</span>
+        <span class="badge bg-dark">FastAPI</span>
+        <span class="badge bg-dark">Docker</span>
+        <span class="badge bg-dark">n8n</span>
+        <span class="badge bg-dark">Embedded Systems</span>
+      </div>
+    </header>
+
+    <!-- =================================================================== -->
+    <!-- 🌟 NIVEL 1: PROYECTOS DESTACADOS (FEATURED TOP 6)                   -->
+    <!-- =================================================================== -->
+    <section class="mb-5">
+      <div class="d-flex align-items-center mb-4">
+        <h2 class="fw-bold fs-3 m-0"><i class="bi bi-star-fill text-warning me-2"></i>Proyectos Destacados</h2>
+        <span class="badge bg-primary ms-3">Top Impacto Técnico</span>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- Top 1: SOC Multi-Agent System -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 featured-card">
+            <div class="card-img-container border-bottom">
+              <img src="assets/img/langgraph-soc.png" alt="Arquitectura SOC Multi-Agent"
+                onerror="this.src='https://via.placeholder.com/400x200?text=Diagrama+de+Arquitectura+SOC'">
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="mb-2"><span class="badge bg-primary">Multi-Agent Systems</span></div>
+              <h5 class="card-title fw-bold">langgraph-soc-multiagent</h5>
+              <p class="card-text text-muted fs-6 flex-grow-1">Orquestación de agentes con estado persistente para
+                triaje y respuesta automatizada ante incidentes de ciberseguridad.</p>
+              <div class="mb-3">
+                <span class="badge badge-tech">LangGraph</span>
+                <span class="badge badge-tech">Python</span>
+                <span class="badge badge-tech">FastAPI</span>
+                <span class="badge badge-tech">Docker</span>
+              </div>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3 pt-0">
+              <a href="https://github.com/ingwplanchez/langgraph-soc-multiagent" target="_blank"
+                class="btn btn-sm btn-dark w-100"><i class="bi bi-github me-1"></i> Ver Repositorio</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Top 2: Helpdesk Agent System -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 featured-card">
+            <div class="card-img-container border-bottom">
+              <img src="assets/img/langgraph-helpdesk.png" alt="Arquitectura Helpdesk Agent"
+                onerror="this.src='https://via.placeholder.com/400x200?text=Diagrama+Helpdesk+System'">
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="mb-2"><span class="badge bg-primary">Autonomous Workflows</span></div>
+              <h5 class="card-title fw-bold">langgraph-helpdesk-system</h5>
+              <p class="card-text text-muted fs-6 flex-grow-1">Sistema autónomo de atención técnica con evaluación
+                condicional de rutas, manejo de tickets y derivación con memoria.</p>
+              <div class="mb-3">
+                <span class="badge badge-tech">LangGraph</span>
+                <span class="badge badge-tech">Python</span>
+                <span class="badge badge-tech">AsyncIO</span>
+              </div>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3 pt-0">
+              <a href="https://github.com/ingwplanchez/langgraph-helpdesk-system" target="_blank"
+                class="btn btn-sm btn-dark w-100"><i class="bi bi-github me-1"></i> Ver Repositorio</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Top 3: Eisenflow Core -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 featured-card">
+            <div class="card-img-container border-bottom">
+              <img src="assets/img/eisenflow-core.png" alt="API REST Eisenflow"
+                onerror="this.src='https://via.placeholder.com/400x200?text=API+FastAPI+Architecture'">
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="mb-2"><span class="badge bg-success">Backend Architecture</span></div>
+              <h5 class="card-title fw-bold">eisenflow-core</h5>
+              <p class="card-text text-muted fs-6 flex-grow-1">Core RESTful API para gestión de flujos de trabajo basada
+                en la Matriz de Eisenhower con validación estricta de datos Pydantic.</p>
+              <div class="mb-3">
+                <span class="badge badge-tech">FastAPI</span>
+                <span class="badge badge-tech">Pydantic</span>
+                <span class="badge badge-tech">PostgreSQL</span>
+              </div>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3 pt-0">
+              <a href="https://github.com/ingwplanchez/eisenflow-core" target="_blank"
+                class="btn btn-sm btn-dark w-100"><i class="bi bi-github me-1"></i> Ver Repositorio</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Top 4: n8n Eisenflow Automation -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 featured-card">
+            <div class="card-img-container border-bottom">
+              <img src="assets/img/n8n-eisenflow.png" alt="Flujo n8n Eisenflow"
+                onerror="this.src='https://via.placeholder.com/400x200?text=Diagrama+de+Flujo+n8n'">
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="mb-2"><span class="badge bg-warning text-dark">Event-Driven Automation</span></div>
+              <h5 class="card-title fw-bold">n8n_eisenflow</h5>
+              <p class="card-text text-muted fs-6 flex-grow-1">Pipeline de orquestación de tareas mediante webhooks
+                orientados a eventos para integración de microservicios externos.</p>
+              <div class="mb-3">
+                <span class="badge badge-tech">n8n</span>
+                <span class="badge badge-tech">Webhooks</span>
+                <span class="badge badge-tech">JSON API</span>
+              </div>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3 pt-0">
+              <a href="https://github.com/ingwplanchez/n8n_eisenflow" target="_blank"
+                class="btn btn-sm btn-dark w-100"><i class="bi bi-github me-1"></i> Ver Repositorio</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Top 5: LangChain Assistant RAG -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 featured-card">
+            <div class="card-img-container border-bottom">
+              <img src="assets/img/langchain-rag.png" alt="Sistema RAG LangChain"
+                onerror="this.src='https://via.placeholder.com/400x200?text=RAG+Architecture+Diagram'">
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="mb-2"><span class="badge bg-primary">RAG & Retrieval</span></div>
+              <h5 class="card-title fw-bold">langchain-asistente-rag</h5>
+              <p class="card-text text-muted fs-6 flex-grow-1">Asistente conversacional RAG con indexación vectorial de
+                fuentes no estructuradas y contexto dinámico.</p>
+              <div class="mb-3">
+                <span class="badge badge-tech">LangChain</span>
+                <span class="badge badge-tech">Vector DB</span>
+                <span class="badge badge-tech">Python</span>
+              </div>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3 pt-0">
+              <a href="https://github.com/ingwplanchez/langchain-asistente-rag" target="_blank"
+                class="btn btn-sm btn-dark w-100"><i class="bi bi-github me-1"></i> Ver Repositorio</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Top 6: Zenflow Analytics -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 featured-card">
+            <div class="card-img-container border-bottom">
+              <img src="assets/img/zenflow-analytics.png" alt="Zenflow Analytics Engine"
+                onerror="this.src='https://via.placeholder.com/400x200?text=Analytics+Engine+Architecture'">
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="mb-2"><span class="badge bg-success">Data & Analytics</span></div>
+              <h5 class="card-title fw-bold">zenflow-analytics</h5>
+              <p class="card-text text-muted fs-6 flex-grow-1">Motor de procesamiento de métricas para análisis de
+                patrones de productividad e integración con dashboards.</p>
+              <div class="mb-3">
+                <span class="badge badge-tech">Python</span>
+                <span class="badge badge-tech">Pandas</span>
+                <span class="badge badge-tech">REST API</span>
+              </div>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3 pt-0">
+              <a href="https://github.com/ingwplanchez/zenflow-analytics" target="_blank"
+                class="btn btn-sm btn-dark w-100"><i class="bi bi-github me-1"></i> Ver Repositorio</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="my-5">
+
+    <!-- =================================================================== -->
+    <!-- 📂 NIVEL 2: REPOSITORIO AMPLIADO (CATEGORIZADO POR CAPAS)           -->
+    <!-- =================================================================== -->
+    <section>
+      <div class="text-center mb-4">
+        <h2 class="fw-bold fs-3"><i class="bi bi-folder-fill text-primary me-2"></i>Catálogo Completo de Proyectos</h2>
+        <p class="text-muted">Explora la totalidad de soluciones desarrolladas clasificadas por capa técnica</p>
+
+        <!-- SELECTOR DE FILTROS -->
+        <div class="btn-group flex-wrap gap-2 mt-3" role="group" aria-label="Filtro de Proyectos">
+          <button type="button" class="btn btn-outline-primary active filter-btn" data-filter="all">🚀 Todos</button>
+          <button type="button" class="btn btn-outline-primary filter-btn" data-filter="ai">🧠 IA & Agentes</button>
+          <button type="button" class="btn btn-outline-primary filter-btn" data-filter="backend">🐍 Backend &
+            APIs</button>
+          <button type="button" class="btn btn-outline-primary filter-btn" data-filter="automation">⚡
+            Automatización</button>
+          <button type="button" class="btn btn-outline-primary filter-btn" data-filter="hardware">🔌 Electrónica &
+            Firmware</button>
+        </div>
+      </div>
+
+      <div id="projects-container" class="mt-5">
+
+        <!-- BLOQUE 1: IA & AGENTES -->
+        <div class="category-section mb-5" data-category="ai">
+          <h4 class="fw-bold mb-3 text-primary border-bottom pb-2">
+            <i class="bi bi-cpu-fill me-2"></i>🧠 AI Engineering & Multi-Agent Systems
+          </h4>
+          <div class="row g-4">
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm border-0">
+                <div class="card-img-container border-bottom">
+                  <img src="assets/img/langgraph-multiuser.png" alt="Multiuser Chat System"
+                    onerror="this.src='https://via.placeholder.com/400x200?text=Multiuser+Chat+System'">
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title fw-bold">langgraph-multiuser-chat-system</h5>
+                  <p class="card-text text-muted fs-6 flex-grow-1">Sistema de chat multiusuario con aislamiento de
+                    estados de conversación y persistencia en memoria.</p>
+                  <div class="mb-3">
+                    <span class="badge badge-tech">LangGraph</span>
+                    <span class="badge badge-tech">Python</span>
+                    <span class="badge badge-tech">Streamlit</span>
+                  </div>
+                </div>
+                <div class="card-footer bg-transparent border-0 pb-3 pt-0">
+                  <a href="https://github.com/ingwplanchez/langgraph-multiuser-chat-system" target="_blank"
+                    class="btn btn-sm btn-outline-dark w-100"><i class="bi bi-github"></i> Código Fuente</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm border-0">
+                <div class="card-img-container border-bottom">
+                  <img src="assets/img/langchain-cv.png" alt="CV Analyzer"
+                    onerror="this.src='https://via.placeholder.com/400x200?text=LangChain+CV+Analyzer'">
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title fw-bold">langchain-cv-analyzer</h5>
+                  <p class="card-text text-muted fs-6 flex-grow-1">Herramienta de extracción y evaluación estructurada
+                    de perfiles profesionales en PDF mediante LLMs.</p>
+                  <div class="mb-3">
+                    <span class="badge badge-tech">LangChain</span>
+                    <span class="badge badge-tech">Python</span>
+                    <span class="badge badge-tech">PyPDF</span>
+                  </div>
+                </div>
+                <div class="card-footer bg-transparent border-0 pb-3 pt-0">
+                  <a href="https://github.com/ingwplanchez/langchain-cv-analyzer" target="_blank"
+                    class="btn btn-sm btn-outline-dark w-100"><i class="bi bi-github"></i> Código Fuente</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm border-0">
+                <div class="card-img-container border-bottom">
+                  <img src="assets/img/langchain-chatbot.png" alt="LangChain Chatbot"
+                    onerror="this.src='https://via.placeholder.com/400x200?text=LangChain+Chatbot'">
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title fw-bold">langchain-chatbot</h5>
+                  <p class="card-text text-muted fs-6 flex-grow-1">Implementación base de agente conversacional modular
+                    con gestión de prompts y memoria intermedia.</p>
+                  <div class="mb-3">
+                    <span class="badge badge-tech">LangChain</span>
+                    <span class="badge badge-tech">OpenAI API</span>
+                  </div>
+                </div>
+                <div class="card-footer bg-transparent border-0 pb-3 pt-0">
+                  <a href="https://github.com/ingwplanchez/langchain-chatbot" target="_blank"
+                    class="btn btn-sm btn-outline-dark w-100"><i class="bi bi-github"></i> Código Fuente</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- BLOQUE 2: BACKEND & APIS -->
+        <div class="category-section mb-5" data-category="backend">
+          <h4 class="fw-bold mb-3 text-success border-bottom pb-2">
+            <i class="bi bi-server me-2"></i>🐍 Backend & Microservices Architecture
+          </h4>
+          <div class="row g-4">
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm border-0">
+                <div class="card-img-container border-bottom">
+                  <img src="assets/img/system-flow.png" alt="System Flow Architecture"
+                    onerror="this.src='https://via.placeholder.com/400x200?text=System+Flow+Architecture'">
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title fw-bold">system-flow</h5>
+                  <p class="card-text text-muted fs-6 flex-grow-1">Arquitectura de ejecución modular para procesamiento
+                    asíncrono y control de estados en Python.</p>
+                  <div class="mb-3">
+                    <span class="badge badge-tech">Python</span>
+                    <span class="badge badge-tech">AsyncIO</span>
+                    <span class="badge badge-tech">OOP</span>
+                  </div>
+                </div>
+                <div class="card-footer bg-transparent border-0 pb-3 pt-0">
+                  <a href="https://github.com/ingwplanchez/system-flow" target="_blank"
+                    class="btn btn-sm btn-outline-dark w-100"><i class="bi bi-github"></i> Código Fuente</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm border-0">
+                <div class="card-img-container border-bottom">
+                  <img src="assets/img/eisenflow-app.png" alt="Eisenflow App UI"
+                    onerror="this.src='https://via.placeholder.com/400x200?text=Eisenflow+App+Interface'">
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title fw-bold">eisenflow</h5>
+                  <p class="card-text text-muted fs-6 flex-grow-1">Aplicación integral de gestión de tareas y
+                    priorización mediante la Matriz de Eisenhower.</p>
+                  <div class="mb-3">
+                    <span class="badge badge-tech">Flask</span>
+                    <span class="badge badge-tech">SQLite</span>
+                    <span class="badge badge-tech">Bootstrap</span>
+                  </div>
+                </div>
+                <div class="card-footer bg-transparent border-0 pb-3 pt-0">
+                  <a href="https://github.com/ingwplanchez/eisenflow" target="_blank"
+                    class="btn btn-sm btn-outline-dark w-100"><i class="bi bi-github"></i> Código Fuente</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- BLOQUE 3: AUTOMATIZACIÓN -->
+        <div class="category-section mb-5" data-category="automation">
+          <h4 class="fw-bold mb-3 text-warning border-bottom pb-2">
+            <i class="bi bi-lightning-charge-fill me-2"></i>⚡ Automation & Event-Driven Systems
+          </h4>
+          <div class="row g-4">
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm border-0">
+                <div class="card-img-container border-bottom">
+                  <img src="assets/img/n8n-notifier.png" alt="n8n Task Notifier"
+                    onerror="this.src='https://via.placeholder.com/400x200?text=n8n+Task+Notifier'">
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title fw-bold">n8n-task-notifier</h5>
+                  <p class="card-text text-muted fs-6 flex-grow-1">Sistema automatizado de notificaciones recurrentes y
+                    alertas dinámicas sincronizadas con mensajería.</p>
+                  <div class="mb-3">
+                    <span class="badge badge-tech">n8n</span>
+                    <span class="badge badge-tech">Telegram API</span>
+                    <span class="badge badge-tech">CRON</span>
+                  </div>
+                </div>
+                <div class="card-footer bg-transparent border-0 pb-3 pt-0">
+                  <a href="https://github.com/ingwplanchez/n8n-task-notifier" target="_blank"
+                    class="btn btn-sm btn-outline-dark w-100"><i class="bi bi-github"></i> Código Fuente</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- BLOQUE 4: ELECTRÓNICA & HARDWARE -->
+        <div class="category-section mb-5" data-category="hardware">
+          <h4 class="fw-bold mb-3 text-info border-bottom pb-2">
+            <i class="bi bi-gear-wide-connected me-2"></i>🔌 Embedded Systems & Hardware Engineering
+          </h4>
+          <div class="row g-4">
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm border-0">
+                <div class="card-img-container border-bottom">
+                  <img src="assets/img/pcb-stm32.png" alt="Diseño PCB STM32"
+                    onerror="this.src='https://via.placeholder.com/400x200?text=KiCad+3D+Render+PCB'">
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title fw-bold">STM32/ESP32 Data Acquisition Boards</h5>
+                  <p class="card-text text-muted fs-6 flex-grow-1">Diseño de placas de evaluación hardware, esquemáticos
+                    multinivel, ruteado PCB y firmware de lectura analógica.</p>
+                  <div class="mb-3">
+                    <span class="badge badge-tech">C/C++</span>
+                    <span class="badge badge-tech">KiCad 9.0</span>
+                    <span class="badge badge-tech">STM32</span>
+                  </div>
+                </div>
+                <div class="card-footer bg-transparent border-0 pb-3 pt-0">
+                  <a href="#" class="btn btn-sm btn-outline-secondary w-100"><i class="bi bi-file-earmark-pdf"></i> Ver
+                    Ficha Técnica / Schematic</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <!-- JavaScript: Filtrado por Secciones -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const categorySections = document.querySelectorAll('.category-section');
+
+      filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          // Cambiar estado activo en botones
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+          button.classList.add('active');
+
+          const filter = button.getAttribute('data-filter');
+
+          // Ocultar / Mostrar secciones completas
+          categorySections.forEach(section => {
+            const sectionCategory = section.getAttribute('data-category');
+
+            if (filter === 'all' || sectionCategory === filter) {
+              section.style.display = 'block';
+            } else {
+              section.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+
+</body>
+
+</html>

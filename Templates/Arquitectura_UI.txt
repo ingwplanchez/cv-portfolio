@@ -1,0 +1,54 @@
+==================================================================================================
+  🌟 NIVEL 1: PROYECTOS DESTACADOS (FEATURED PROJECTS - TOP 6 A 8)
+  Capa de mayor impacto técnico: Arquitecturas Multiagente, Infraestructura MCP, RAG & FastAPI
+==================================================================================================
+
++----------------------------------+  +----------------------------------+  +----------------------------------+
+| 🚀 Top 1: SOC Multi-Agent System |  | 🚀 Top 2: MCP Enterprise Agent  |  | 🚀 Top 3: RAG Evaluator (Pytest) |
+| [Imagen/Diagrama de Arquitectura]|  | [Imagen/Diagrama de Arquitectura]|  | [Imagen/Diagrama de Arquitectura]|
+| LangGraph · LangSmith · FastAPI  |  | Python · MCP · Docker · LLMs     |  | Pytest · LangSmith · VectorDB    |
++----------------------------------+  +----------------------------------+  +----------------------------------+
+
++----------------------------------+  +----------------------------------+  +----------------------------------+
+| 🚀 Top 4: Helpdesk Agent System  |  | 🚀 Top 5: Eisenflow Core API    |  | 🚀 Top 6: Event-Driven n8n Flow  |
+| [Imagen/Diagrama de Arquitectura]|  | [Imagen/Diagrama de Arquitectura]|  | [Imagen/Diagrama de Arquitectura]|
+| LangGraph · Python · AsyncIO     |  | FastAPI · Pydantic · PostgreSQL  |  | n8n · Webhooks · Python API      |
++----------------------------------+  +----------------------------------+  +----------------------------------+
+
+
+==================================================================================================
+  📂 NIVEL 2: REPOSICIÓM Y REPOSITORIO AMPLIADO (CATÁLOGO CATEGORIZADO POR CAPAS)
+  Visualización flexible mediante filtrado interactivo (Default: Todos)
+==================================================================================================
+
+  [ 🚀 Todos ]    [ 🧠 IA & Agentes ]    [ 🐍 Backend & APIs ]    [ ⚡ Automatización ]    [ 🔌 Electrónica & Firmware ]
+
+--------------------------------------------------------------------------------------------------
+
+  🧠 1. AI Engineering & Multi-Agent Systems
+  +----------------------------------+  +----------------------------------+  +----------------------------------+
+  | Multi-User Chat System           |  | LangChain CV Analyzer            |  | LangChain RAG Assistant          |
+  | [Imagen Demo / Diagrama]         |  | [Imagen Demo / Diagrama]         |  | [Imagen Demo / Diagrama]         |
+  | LangGraph · Streamlit · Memory   |  | LangChain · OpenAI · PyPDF       |  | LangChain · FAISS · Embeddings   |
+  +----------------------------------+  +----------------------------------+  +----------------------------------+
+
+  🐍 2. Backend & Microservices Architecture
+  +----------------------------------+  +----------------------------------+  +----------------------------------+
+  | System Flow                      |  | Eisenflow App                    |  | Zenflow Analytics                |
+  | [Imagen Demo / Diagrama]         |  | [Imagen Demo / Diagrama]         |  | [Imagen Demo / Diagrama]         |
+  | Python · AsyncIO · Architecture  |  | Flask · SQLite · Eisenhower      |  | Python · Data Processing · REST  |
+  +----------------------------------+  +----------------------------------+  +----------------------------------+
+
+  ⚡ 3. Automation & Event-Driven Systems
+  +----------------------------------+  +----------------------------------+
+  | Task Notifier Agent              |  | AgendAI Telegram Integration     |
+  | [Imagen Demo / Diagrama]         |  | [Imagen Demo / Diagrama]         |
+  | n8n · Telegram Bot API           |  | Make · Gemini API · Google Cal   |
+  +----------------------------------+  +----------------------------------+
+
+  🔌 4. Embedded Systems & Hardware Engineering
+  +----------------------------------+  +----------------------------------+
+  | STM32 / ESP32 Evaluation Boards  |  | Control Mecatrónico Industrial   |
+  | [Render PCB 3D / KiCad Layout]   |  | [Esquemático / Diagrama Bloques] |
+  | C/C++ · KiCad 9.0 · STM32        |  | Arduino · Proteus · Altium       |
+  +----------------------------------+  +----------------------------------+
